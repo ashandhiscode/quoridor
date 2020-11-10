@@ -1,0 +1,5 @@
+.board {
+    position: absolute;
+    left: 30%;
+    background-color: yellow;
+}
