@@ -1,0 +1,42 @@
+.vertical-full {
+    width: 5px;
+    height: 50px;
+}
+
+.horizontal-full {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    position: relative;
+    top: -9px;
+}
+
+.vertical-half {
+    width: 5px;
+    height: 25px;
+}
+
+.horizontal-half {
+    display: inline-block;
+    width: 25px;
+    height: 5px;
+    position: relative;
+    top: -9px;
+}
+
+.horizontal-container {
+    display: inline-block;
+    
+}
+
+.inactive-plank {
+    background-color: green;
+}
+
+.active-plank {
+    background-color: blue;
+}
+
+.hover {
+    background-color:yellow;
+}
