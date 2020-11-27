@@ -1,0 +1,19 @@
+.squares-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.planks-container {
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+}
+
+.row-container {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}

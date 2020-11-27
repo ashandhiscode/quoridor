@@ -123,7 +123,6 @@ class Arena extends React.Component {
     }
 
     checkIfLegalMove(x_fut, y_fut) {
-        
         //first let's find the coordinates of the current player
         const obj = this.state.boardConfig
         const pos = this.state.playerConfig[this.state.currentPlayer].currentPosition
@@ -174,7 +173,7 @@ class Arena extends React.Component {
     }
 
     checkForBlockages(additions) {
-            
+                
     }
 
     whenMouse = (event, type, orientation, colNumber, rowNumber, split) => {
